@@ -1,0 +1,21 @@
+{
+  "_updated_at": "2026-05-20",
+  "DeepSeek-V4-Pro":   {"input": 3.0, "output": 6.0, "cache_read": 0.025},
+  "DeepSeek-V4-Flash": {"input": 1.0, "output": 2.0, "cache_read": 0.02},
+  "DeepSeek-V3.2":     {"input": 2.0, "output": 3.0, "cache_read": 0.2},
+
+  "claude-sonnet-4-6": {"input": 6.0, "output": 12.0, "cache_read": 0.05},
+  "claude-opus-4-7":   {"input": 6.0, "output": 12.0, "cache_read": 0.05},
+  "claude-haiku-4-5":  {"input": 2.0, "output": 4.0,  "cache_read": 0.04},
+
+  "GLM-4.7":           {"input": 2.0, "output": 8.0, "cache_read": 0.4},
+  "GLM-4.5-Air":       {"input": 0.8, "output": 2.0, "cache_read": 0.16},
+  "GLM-4.7-Flash":     {"input": 0.0, "output": 0.0, "cache_read": 0.0},
+
+  "kimi-k2.5":         {"input": 4.0, "output": 21.0, "cache_read": 0.7},
+  "moonshot-v1-8k":    {"input": 2.0, "output": 10.0, "cache_read": 0.4},
+
+  "MiniMax-M2.7":      {"input": 2.1, "output": 8.4, "cache_read": 0.42},
+
+  "_note": "单位：¥/百万token。仅3项计费：输入(缓存未命中)+输出+缓存命中。修改后重启即生效。"
+}
